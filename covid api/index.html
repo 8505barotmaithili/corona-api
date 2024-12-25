@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: white;
+      }
+
+      #corona {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 90px;
+        padding: 20px;
+      }
+
+      .card-body {
+        background-color: #1e304c;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        width: 300px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        margin-bottom: 20px;
+        text-align: center;
+      }
+
+      .card-name {
+        font-size: 1.5rem;
+        color: #80868c;
+        margin-bottom: 15px;
+        font-weight: bold;
+      }
+
+      .card-category {
+        font-size: 1rem;
+        color: #6c757d;
+        margin-bottom: 10px;
+        line-height: 1.5;
+      }
+
+      .card-footer {
+        margin-top: 15px;
+        text-align: center;
+        font-size: 0.9rem;
+        color: #007bff;
+      }
+
+      .card-footer a {
+        text-decoration: none;
+        color: #007bff;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="corona"></div>
+    <script src="index.js"></script>
+  </body>
+</html>
